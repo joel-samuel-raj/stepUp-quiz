@@ -1,10 +1,9 @@
 module.exports = {
-  mode: "jit",
-  important : true,
+  important: '#__next',
   content: [
     "./pages/**/*.{js,ts,jsx,tsx}",
     "./pages/*.{js,ts,jsx,tsx}",
-    "./src/**/*.{js,ts,jsx,tsx}",
+    "./src/**/*.{js,ts,jsx,tsx}", 
     "./src/*.{js,ts,jsx,tsx}",
   ],
   theme: {
